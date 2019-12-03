@@ -2711,6 +2711,27 @@ ul.icon li a {
   padding: 10px;
 }
 
+.color-light {
+  color: #cccccc;
+}
+
+.semi-black {
+  color: #000000;
+}
+
+.br-3 {
+  border-radius: 3px;
+}
+.br-4 {
+  border-radius: 4px;
+}
+.br-5 {
+  border-radius: 5px;
+}
+.br-7 {
+  border-radius: 7px;
+}
+
 /* WIDTH/HEIGHT */
 
 .w-auto {
@@ -8464,11 +8485,110 @@ ul.icon li a {
     padding-bottom: 20px !important;
   }
 
+  .ptb-xs-25 {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+  }
+
+  .ptb-xs-30 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+
+  .ptb-xs-40 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+  }
+
+  .ptb-xs-50 {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+
+  .ptb-xs-60 {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+  }
+
+  .ptb-xs-70 {
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+  }
+
+  .ptb-xs-80 {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+  }
+
+  .ptb-xs-90 {
+    padding-top: 90px !important;
+    padding-bottom: 90px !important;
+  }
+
+  .plr-xs-0 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .plr-xs-5 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+
+  .plr-xs-10 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .plr-xs-15 {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+
   .plr-xs-20 {
     padding-left: 20px !important;
     padding-right: 20px !important;
   }
 
+  .plr-xs-25 {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+
+  .plr-xs-30 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .plr-xs-40 {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  .plr-xs-50 {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+
+  .plr-xs-60 {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+  }
+
+  .plr-xs-70 {
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+  }
+
+  .plr-xs-80 {
+    padding-left: 80px !important;
+    padding-right: 80px !important;
+  }
+
+  .plr-xs-90 {
+    padding-left: 90px !important;
+    padding-right: 90px !important;
+  }
 }
 
 .navbar-toggler{
