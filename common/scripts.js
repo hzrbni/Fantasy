@@ -10,17 +10,6 @@ function selectedActive(elem) {
   else $(selectionID).addClass("active");
 }
 
-$(function() {
-  $(window).scroll(function() {
-    var winTop = $(window).scrollTop();
-    if (winTop >= 30) {
-      $("body").addClass("sticky-header");
-    } else {
-      $("body").removeClass("sticky-header");
-    } //if-else
-  }); //win func.
-}); //ready func.
-
 function enableCounterUp(a) {
   var counterElement;
   if (isExists("#counter")) {
@@ -143,6 +132,15 @@ function enableRadialProgress() {
 
     $(mainMenu).toggleClass("visible-menu");
   });
+
+  $(window).scroll(function() {
+    var winTop = $(window).scrollTop();
+    if (winTop >= 30) {
+      $("body").addClass("sticky-header");
+    } else {
+      $("body").removeClass("sticky-header");
+    } //if-else
+  }); //win func.
 })(jQuery);
 
 function dropdownMenu(winWidth) {
