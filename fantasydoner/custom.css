@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/*
+Theme Name: Fanasy
+Theme URI: 
+Author: 
+Author URI: 
+Description: 
+Version: 1.0
+License: 
+License URI: 
+Text Domain: fantasy
+Tags: 
+*/
+
+@import url("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css");
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://use.typekit.net/ckq2bjx.css");
+
+
+
+h1,h2,h3{
+    font-family: active,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+li.menu-item{
+    list-style: none;
+    display: inline-block;
+    line-height: 1.6;
+    font-size: 0.9em;
+}
+li.menu-item a{
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+}
+@media (min-width: 992px){
+li.menu-item a {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+}
+#side-menu li.menu-item{
+
+    display: block;
+}
+#side-menu li.menu-item a{
+    color: #fff;
+}
+
+#side-menu .menu{
+    margin-bottom: 10px;
+}
+
+
+#delivery {
+    margin-bottom: 100px;
+}
+
+
+.h8{
+    font-family: active,sans-serif !important;
+
+}
+
