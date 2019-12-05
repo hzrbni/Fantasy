@@ -1598,6 +1598,8 @@ section {
   z-index: 3;
   padding: 0;
   margin-top: -150px;
+  position: relative;
+  background: none;
 }
 .grunge-transition-top::before {
   content: url(../img/cut-gradient-t.png);
@@ -1607,6 +1609,8 @@ section {
   z-index: 3;
   padding: 0;
   margin-bottom: -150px;
+  position: relative;
+  background: none;
 }
 .grunge-transition-bottom::after {
   content: url(../img/cut-gradient-b.png);
@@ -8516,7 +8520,7 @@ ul.icon li a {
 }
 .first-section {
   min-height: 650px;
-  height: 100vh;
+  height: calc(100vh + 150px);
   padding-bottom: 40px;
   padding-top: 200px;
 }
@@ -8524,7 +8528,8 @@ ul.icon li a {
   position: relative;
   height: 50px;
   width:100px;
-  margin-top: 30px;
+  margin-top: 200px;
+  top: -150px;
 }
 span.scroll-down {
   position: absolute;
