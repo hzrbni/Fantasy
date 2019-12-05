@@ -311,29 +311,6 @@ header {
 header .container {
   height: 100%;
 }
-/* header:after {
-        content: '';
-        height: 10px;
-        position: absolute;
-        bottom: -10px;
-        left: 0;
-        right: 0;
-        background: url(../images/triangle_bg_black.png) repeat-x;
-        background-size: 26px 10px;
-        opacity: .6;
-} */
-
-/* header:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        bottom: 0px;
-        left: 0;
-        right: 0;
-
-        z-index: -1;
-        opacity: .6;
-} */
 
 header i {
   font-size: 1.1em;
@@ -2644,11 +2621,29 @@ ul.selecton li a.active {
 .hello {
   margin-left: 0%;
 }
-.dude {
-  height: 200px;
-  width: auto;
-}
-
+.business-hours {
+  background: #222; 
+  padding: 40px 14px;
+  position: relative;
+  }
+  .business-hours .title {
+  font-size: 20px;
+  color: #BBB;
+  text-transform: uppercase;
+  padding-left: 5px;
+  border-left: 4px solid #ffac0c; 
+  }
+  .business-hours li {
+  color: #888;
+  line-height: 30px;
+  border-bottom: 1px solid #333; 
+  }
+  .business-hours li:last-child {
+  border-bottom: none; 
+  }
+  .business-hours .opening-hours li.today {
+  color: #ffac0c; 
+  }
 /* RESPONSIVE */
 
 @media only screen and (max-width: 767px) {
@@ -8573,6 +8568,6 @@ span.scroll-down:before {
   margin-bottom: 15px;
 }
 .social-btns {
-  font-size: 36px;
+  font-size: 1.5rem;
 }
 
