@@ -1305,6 +1305,11 @@ section {
   padding: 180px 0 200px 0;
 }
 
+.contact-section {
+  background: url(../img/2x/paper.png);
+  background-size: cover;
+}
+
 /* .bg-seller:after{ content: ""; position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: -1; } */
 
 .bg-191 {
@@ -2915,6 +2920,10 @@ ul.icon li a {
 
 .h-600x {
   height: 600px !important;
+}
+
+.h-650x {
+  height: 650px !important;
 }
 
 .h-700x {
