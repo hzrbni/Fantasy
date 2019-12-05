@@ -1594,17 +1594,26 @@ section {
   background: #fff;
 }
 
-.process-section {
+.grunge-transition-top {
+  z-index: 3;
+  padding: 0;
+  margin-top: -150px;
+  position: relative;
+  background: none;
+}
+.grunge-transition-top::before {
+  content: url(../img/cut-gradient-t.png);
+}
+
+.grunge-transition-bottom {
   z-index: 3;
   padding: 0;
   margin-bottom: -150px;
-  margin-top: -150px;
+  position: relative;
+  background: none;
 }
-.process-section::after {
+.grunge-transition-bottom::after {
   content: url(../img/cut-gradient-b.png);
-}
-.process-section::before {
-  content: url(../img/cut-gradient-t.png);
 }
 
 /* RESPONSIVE */
@@ -8511,7 +8520,7 @@ ul.icon li a {
 }
 .first-section {
   min-height: 650px;
-  height: 100vh;
+  height: calc(100vh + 150px);
   padding-bottom: 40px;
   padding-top: 200px;
 }
@@ -8519,7 +8528,8 @@ ul.icon li a {
   position: relative;
   height: 50px;
   width:100px;
-  margin-top: 30px;
+  margin-top: 220px;
+  top: -150px;
 }
 span.scroll-down {
   position: absolute;
