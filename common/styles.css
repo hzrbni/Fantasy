@@ -1594,17 +1594,22 @@ section {
   background: #fff;
 }
 
-.process-section {
+.grunge-transition-top {
+  z-index: 3;
+  padding: 0;
+  margin-top: -150px;
+}
+.grunge-transition-top::before {
+  content: url(../img/cut-gradient-t.png);
+}
+
+.grunge-transition-bottom {
   z-index: 3;
   padding: 0;
   margin-bottom: -150px;
-  margin-top: -150px;
 }
-.process-section::after {
+.grunge-transition-bottom::after {
   content: url(../img/cut-gradient-b.png);
-}
-.process-section::before {
-  content: url(../img/cut-gradient-t.png);
 }
 
 /* RESPONSIVE */
