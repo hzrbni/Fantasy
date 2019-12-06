@@ -55,6 +55,6 @@
 
                                 </div>
                         </nav>
-                        <a class="logo" href="#"><img src="<?php bloginfo('template_directory');?>/images/logo.png" alt="Logo"></a>
+                        <a class="logo" echo href=""><img src="<?php bloginfo('template_directory');?>/img/logo.svg" alt="Logo"></a>
                 </div><!-- container -->
         </header>
